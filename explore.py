@@ -45,19 +45,9 @@ def visualize_points():
     plt.figure(figsize=(12, 8))
     for co, cl in zip(colors, class_labels):
         plt.scatter(labels['{0}x'.format(cl)], labels['{0}y'.format(cl)], c='tab:{0}'.format(co), s=2, label=str(cl))
-    #plt.scatter(labels['0x'], labels['0y'], c='tab:blue', s=2, label='blue')
-    #plt.scatter(x[label == 1], y[label == 1], c='tab:orange', s=2, label='orange')
+
     plt.legend()
     plt.show()
-
-
-
-
-
-
-
-
-
 
 
 
